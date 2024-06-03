@@ -1,0 +1,11 @@
+.hexagon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hexagon-image {
+    max-width: 365px;
+    height: auto;
+}

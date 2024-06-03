@@ -1,0 +1,89 @@
+body {
+    background-color: #fff3e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.whack-a-mole-background {
+    background-image: url('../../Images/WhackAMoleBackground.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #1976d2;
+    border-radius: 5px;
+}
+
+.whack-a-mole-container {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game-area {
+    background-color: #d32f2f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+}
+
+.score {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #b71c1c;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+.mole-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 75px;
+}
+
+.hole {
+    width: 80px;
+    height: 80px;
+    background-color: #388e3c;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.mole {
+    width: 60px;
+    height: 60px;
+    background-color: #ffc107;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

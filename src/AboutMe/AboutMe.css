@@ -1,0 +1,60 @@
+.about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about-me-card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about-me-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.about-me-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.about-me-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.about-me-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.about-me-description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #34495e;
+    text-align: justify;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 600px;
+}

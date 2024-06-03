@@ -1,0 +1,97 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.calculator-background {
+    background-image: url('../../Images/CalculatorBackground.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.calculator-container {
+    max-width: 400px;
+}
+
+.calculator {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.calculator-display {
+    background-color: #444;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: right;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #666;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #777;
+}
+
+button:active {
+    background-color: #888;
+}
+
+.operator {
+    background-color: #ff9500;
+}
+
+.operator:hover {
+    background-color: #ffa366;
+}
+
+.operator:active {
+    background-color: #ff9933;
+}
+
+.highlight {
+    background-color: #ff5722;
+}

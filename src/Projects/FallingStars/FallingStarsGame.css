@@ -1,0 +1,72 @@
+body {
+    background-color: #e3f2fd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.falling-stars-game-background {
+    background-image: url('../../Images/FallingStarsBackground.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #1976d2;
+    border-radius: 5px;
+}
+
+.falling-stars-game-container {
+    max-width: 400px;
+}
+
+.game-area {
+    background-color: #1976d2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.basket {
+    width: 50px;
+    height: 30px;
+    background-color: #ffeb3b;
+    position: absolute;
+    bottom: 0;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    background-color: #fff176;
+    position: absolute;
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 18px;
+}

@@ -1,0 +1,122 @@
+body {
+    background-color: #e0f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.todo-list-background {
+    background-image: url('../../Images/ToDoBackground.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #00796b;
+    border-radius: 5px;
+}
+
+.todo-list-container {
+    max-width: 400px;
+}
+
+.todo-list {
+    background-color: #00796b;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.todo-list-input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.todo-list-input input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #004d40;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #004d40;
+}
+
+.todo-list-input button {
+    border: none;
+    border-radius: 5px;
+    background-color: #004d40;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.todo-list-input button:hover {
+    background-color: #00695c;
+}
+
+.todo-list-input button:active {
+    background-color: #004d40;
+}
+
+.todo-list-items {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-list-items li {
+    background-color: #004d40;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-list-items li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.todo-list-items li button {
+    border: none;
+    border-radius: 5px;
+    background-color: #d32f2f;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.todo-list-items li button:hover {
+    background-color: #e53935;
+}
+
+.todo-list-items li button:active {
+    background-color: #c62828;
+}
+
+.todo-list-items li input[type="checkbox"] {
+    margin-right: 10px;
+}

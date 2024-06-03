@@ -1,0 +1,118 @@
+body {
+    background-color: #fff3e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.note-taking-app-background {
+    background-image: url('../../Images/NoteTakingBackground.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.home-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #d84315;
+    border-radius: 5px;
+}
+
+.note-taking-app-container {
+    max-width: 400px;
+}
+
+.note-taking-app {
+    background-color: #d84315;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.note-taking-input {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.note-taking-input input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #bf360c;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #bf360c;
+}
+
+.note-taking-input button {
+    border: none;
+    border-radius: 5px;
+    background-color: #bf360c;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.note-taking-input button:hover {
+    background-color: #e64a19;
+}
+
+.note-taking-input button:active {
+    background-color: #bf360c;
+}
+
+.note-taking-items {
+    list-style: none;
+    padding: 0;
+}
+
+.note-taking-items li {
+    background-color: #bf360c;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.note-taking-items li .note-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.note-taking-items li button {
+    border: none;
+    border-radius: 5px;
+    background-color: #d84315;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.note-taking-items li button:hover {
+    background-color: #e64a19;
+}
+
+.note-taking-items li button:active {
+    background-color: #bf360c;
+}

@@ -1,0 +1,23 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+p, span, a, li {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* Attributes */
+/* <a href="https://www.flaticon.com/free-icons/calculator" title="calculator icons">Calculator icons created by Freepik - Flaticon</a> */
+/* <a href="https://www.flaticon.com/free-icons/completed" title="completed icons">Completed icons created by Paul J. - Flaticon</a> */
+/* <a href="https://www.flaticon.com/free-icons/take-note" title="take note icons">Take note icons created by Umeicon - Flaticon</a> */
+/* <a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Freepik - Flaticon</a> */
+/* <a href="https://www.flaticon.com/free-icons/alzheimer" title="alzheimer icons">Alzheimer icons created by Good Ware - Flaticon</a> */
+/* <a href="https://www.flaticon.com/free-icons/playground" title="playground icons">Playground icons created by Freepik - Flaticon</a> */
