@@ -21,7 +21,7 @@ function App() {
     const name = "Tyler Will";
 
     return (
-        <Router>
+        <Router basename="/front-end-portfolio">
             <div className="main-container">
                 <Routes>
                     <Route path="/" element={
